@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <div className="p-2 text-gray-500 text-sm fixed bottom-[2%]">
+        <div className="p-5 text-gray-500 text-sm ">
             Developer{" "}
             <a href="#" className="text-[#9b7c01] hover:underline">
                 {" "}

@@ -71,7 +71,7 @@ const Page = () => {
             <div className="container mx-auto flex flex-col justify-center items-center min-h-screen">
                 {/* Initial Window  */}
                 {!change && (
-                    <div className="p-3 w-full max-w-2xl">
+                    <div className="p-3 w-full max-w-2xl flex-1 flex flex-col justify-center">
                         <Header title="Quantos Jogadores?" />
                         <div className="flex flex-col sm:flex-row gap-4">
                             <input
@@ -91,7 +91,7 @@ const Page = () => {
 
                 {/* Cards */}
                 {change && (
-                    <div className="w-full max-w-5xl">
+                    <div className="w-full max-w-5xl flex-1 flex flex-col justify-center">
                         <Header title="Escolha sua Casa" />
                         <div className="flex justify-between items-center md:my-10 gap-2 px-4">
                             <Button
